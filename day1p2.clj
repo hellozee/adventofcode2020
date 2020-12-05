@@ -7,9 +7,9 @@
 
 
 (defn main []
-  (println (remove nil?(let [input (getvec (slurp "day1p2.in"))]
+  (println (first (remove nil?(let [input (getvec (slurp "day1.in"))]
     (for [x input y input z input] 
       (if (= 2020 (+ x y z))
-             (* x y z)))))))
+             (* x y z))))))))
 
 (main)

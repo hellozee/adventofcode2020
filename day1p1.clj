@@ -13,6 +13,6 @@
       (get-ans (drop-last sorted-vec)))))
 
 (defn main [] 
-  (println (get-ans (sort (getvec (slurp "day1p1.in"))))))
+  (println (get-ans (sort (getvec (slurp "day1.in"))))))
 
 (main)
